@@ -5,8 +5,8 @@ app.get('/', function (req, res) {
   res.send('Hello World!\n');
 });
 
-app.get('/fucktrump', function(req, res) {
-  res.send('Fuck Trump!\n');
+app.get('/missatge_per_a_tu', function(req, res) {
+  res.send('T\'estimo Cati!\n');
 });
 
 app.listen(8080, function () {
