@@ -13,10 +13,10 @@ block content
           if contacts
             thead
               tr
-                th ID
-                th First Name
-                th Last Name
-                th EMail
+                th IDe
+                th Firsto Name
+                th Lasto Name
+                th EMailo
             tbody
               for contact in contacts
                 tr
@@ -26,9 +26,9 @@ block content
                   td= contact.email
           else
             form(action="/seed", method="POST")
-                button(type="submit").btn.btn-primary Seed Data
+                button(type="submit").btn.btn-primary Seeda Data
             br
             br
             tr
               td
-                | No contacts found
+                | No contactos foundos
